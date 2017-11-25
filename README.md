@@ -1,4 +1,12 @@
-This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
+This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app). TypeScript was then introduced to the project by following [React Native with TypeScript](https://medium.com/@rintoj/react-native-with-typescript-40355a90a5d7) on Medium, with a few notable differences:
+
+* updated "main" key in `package.json` to "./crna-entry.js"
+* copied crna-entry.js from node_modules/react-native-scripts to the root of the project
+* update crna-entry.js:27 to `var _App = require('./build/App');`
+* used "build" instead of "artifacts"
+* changed some values in tsconfig.json
+* changed some values in tslint.json
+* changed some of the scripts definitions in package.json
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
 
